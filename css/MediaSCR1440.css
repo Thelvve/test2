@@ -1,0 +1,236 @@
+/*-----1440--------------------------------*/
+@media (max-width: 1440px) {
+
+  #foto_4, #foto_5, #foto_6 {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  ._Contemporary, .vid, .vid2, .vid3, .vid4 {
+    margin: 0;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  ._svg  { 
+  height: 50px;
+  }
+}
+
+/*-----1440--------------------------------*/
+/*-----1280--------------------------------*/
+@media (max-width: 1280px) {
+
+  #foto_1, #foto_2, #foto_3, #foto_4, #foto_5, #foto_6 { 
+    width: 325px;
+    height: 325px;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  #video1, #video2, #video3, #video4  { 
+  width: 400px;
+  height: 400px;
+  }
+}
+/*-----1280--------------------------------*/
+/*-----1024--------------------------------*/
+
+@media (max-width: 1024px) {
+
+  ._nbr1, ._nbr2, ._nbr3, ._nbr4 { 
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  ._Foot { 
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  ._titleH1, ._AboutOur, ._header, .achiv, ._TimeH, ._contact, ._svgBlockText  { 
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  ._titleH2 { 
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  ._HeaderNav { 
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  ._description, ._text, .achiv, .timetable_text, ._tel  { 
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+
+  ._map { 
+  width: 700px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  #foto_1, #foto_2, #foto_3, #foto_4, #foto_5, #foto_6 { 
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 1023px) {
+
+  #foto_1, #foto_2, #foto_3, #foto_4, #foto_5, #foto_6 { 
+    display: none;
+  }
+}
+/*-----1024--------------------------------*/
+/*-----768-------------------------------*/
+@media (max-width: 768px) {
+
+  ._MCont {
+  display: block;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._titleH1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px){
+._Foot {
+    padding-left: 0px;
+}
+}
+
+@media (max-width: 768px) {
+
+  ._btn {
+    display: flex;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container, .container2, .container3, .container4 { 
+  display: block;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._nbr1, ._nbr2, ._nbr3, ._nbr4 { 
+   display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  ._titleH2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._Contemporary, .vid, .vid2, .vid3, .vid4
+ { 
+  padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._header
+ { 
+  padding: 0;
+  padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._HeaderNav
+ { 
+  margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._TimeH
+ { 
+  padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._svgBlock
+ { 
+  padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._map
+ { 
+  width: 660px;
+  }
+}
+/*-----768-------------------------------*/
+/*-----660-------------------------------*/
+@media (max-width: 710px) {
+
+  ._map
+ { 
+  width: 265px;
+  height: 300px;
+  }
+} 
+
+@media (max-width: 768px) {
+
+  ._Titext
+ { 
+  margin-top: -30px;
+  }
+} 
+
+@media (max-width: 424px){
+._titleH2 {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 375px){
+#video1, #video2, #video3, #video4 {
+    width: 310px;
+    height: 330px;
+}
+}
