@@ -1,0 +1,295 @@
+/*-----обнуление----------------*/
+*,
+*:before,
+*:after {
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  box-sizing: inherit;
+  font-size: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #fff;
+  font-family: Hind Siliguri;
+  font-weight: 500;
+  width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+/*-----обнуление--------------------------------*/
+.wrapper{
+  margin: 10px;
+}
+/*-----header__logo--------------------------------*/
+._logo{
+  display: flex;
+  margin-left: 40px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-left: 300px;
+  line-height: 3rem;
+  font-weight: 900;
+  padding: 20px;
+}
+
+._list{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+letter-spacing: 3px;
+}
+
+._nbr1, ._nbr2, ._nbr3, ._nbr4 {
+  font-size: 20px;
+  margin-left: 40px;
+  font-size: 23px;}
+
+._MCont {
+    padding: 30px 5px;
+    font-size: 20px;
+    line-height: 5rem;
+    letter-spacing: 1px;
+    display: grid;
+    justify-items: center;
+}
+
+._titleH1 {
+    font-size: 50px;
+    line-height: 5rem;
+    letter-spacing: 4px;
+}
+
+._HeadCont {
+    padding: 30px 0px;
+}
+
+._titleH2 {
+    line-height: 76px;
+    margin: -20px 0px 0px 0px;
+}
+
+._Foot{
+    padding-left: 70px;
+}
+
+ ._icon {
+    padding-right: 10px;
+    height: 15px;
+    margin-top: 30px;
+ }
+._btn{
+  display: block;
+  margin: auto;
+}
+
+._btnText, ._TimButton {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 250px;
+  background-color: #7a0c0c;
+  color: #fff;
+  margin: auto;
+  display: block;
+}
+ 
+._AboutOur {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+  
+._description,
+._contact {
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    line-height: 3rem;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+._Fblock1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+._foto{
+  height: 400px;
+  width: 450px;
+}
+
+#foto_2{
+  width: 300px;
+}
+
+#foto_4,
+#foto_5,
+#foto_6{
+  height: 500px;
+}
+
+._header {
+    text-align: center;
+    padding: 100px 0px 70px 0px;
+      padding-top: 100px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container, .container2, .container3, .container4 {
+    padding-top: 80px;
+    display: flex;
+}
+
+._Contemporary {
+    margin: 10px 130px;
+    max-width: 1000px;
+}
+
+._HeaderNav {
+    font-size: 35px;
+    padding: 20px;
+}
+
+._text {
+    font-size: 25px;
+    padding: 25px;
+}
+
+.vid, .vid2, .vid3, .vid4 {
+    margin: 10px 185px 10px 10px;
+}
+
+._Description {
+    font-size: 25px;
+    line-height: 3rem;
+    text-align: center;
+}
+.achiv {
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+._TimeH {
+    font-size: 50px;
+    padding-top: 80px;
+    font-weight: 600;
+}
+
+.timetable_text {
+    font-size: 30px;
+    padding: 30px 0px 30px;
+}
+
+.timetable,
+._tel,
+._svgBlockText {
+    line-height: 3rem;
+    text-align: center;
+}
+
+.info {
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    line-height: 3rem;
+    padding-top: 80px;
+}
+._contact {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+._tel {
+    font-size: 30px;
+    line-height: 4rem;
+    padding-bottom: 20px;
+}
+
+._svgBlock{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+._svg {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 10px 0px 0px;
+    margin: auto;
+    display: block;
+}
+
+._map {
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    line-height: 3rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+/*-----header__logo--------------------------------*/
