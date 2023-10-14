@@ -121,6 +121,10 @@ letter-spacing: 3px;
     height: 15px;
     margin-top: 30px;
  }
+._btn{
+  display: block;
+  margin: auto;
+}
 
 ._btnText, ._TimButton {
   padding: 15px;
