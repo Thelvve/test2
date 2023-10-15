@@ -65,16 +65,7 @@ li {
   margin: 10px;
 }
 /*-----header__logo--------------------------------*/
-._logo{
-  display: flex;
-  margin-left: 40px;
-  font-size: 30px;
-  letter-spacing: 1px;
-  margin-left: 300px;
-  line-height: 3rem;
-  font-weight: 900;
-  padding: 20px;
-}
+
 
 ._list{
 display: flex;
@@ -83,10 +74,10 @@ margin-top: 40px;
 letter-spacing: 3px;
 }
 
-._nbr1, ._nbr2, ._nbr3, ._nbr4 {
+.menu__link {
   font-size: 20px;
   margin-left: 40px;
-  font-size: 23px;}
+}
 
 ._MCont {
     padding: 30px 5px;
@@ -177,13 +168,9 @@ letter-spacing: 3px;
 #foto_6{
   height: 500px;
 }
-
-._header {
-    text-align: center;
-    padding: 100px 0px 70px 0px;
-      padding-top: 100px;
-    font-size: 50px;
-    font-weight: 600;
+.header{
+  display: flex;
+  justify-content: center;
 }
 
 .container, .container2, .container3, .container4 {
