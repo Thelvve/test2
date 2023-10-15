@@ -143,13 +143,6 @@
 }
 
 @media (max-width: 768px) {
-
-  ._nbr1, ._nbr2, ._nbr3, ._nbr4 { 
-   display: none;
-  }
-}
-
-@media (max-width: 768px) {
   ._titleH2 {
     font-size: 15px;
   }
@@ -177,6 +170,30 @@
   ._HeaderNav
  { 
   margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._description
+ { 
+  padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  ._header
+ { 
+  padding-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .achiv
+ { 
+  padding-top: 40px;
   }
 }
 
