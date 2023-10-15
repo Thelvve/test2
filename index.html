@@ -7,21 +7,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/MediaSCR1440.css">
+  <link rel="stylesheet" href="css/burger.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+  <script defer src="js/main.js"></script>
   <title>Студия танца На Ногах</title>
 </head>
 
 <body style="background-color: #30254D;">
   <div class="wrapper">
-      <div class="header__list _list">
-        <p><a href="#About__header" class="header__menu _nbr1">О нас</a></p>
-        <p><a href="#dance__direction" class="header__menu _nbr2">Направления танцев</a></p>
-        <p><a href="#_Achiv" class="header__menu _nbr3">Наши достижения</a></p>
-        <p><a href="#_TimeH" class="header__menu _nbr4">Расписание</a></p>
-        
-       </div>
-      
+    <header class="header">
+      <div class="container header__container">
+          <button class="header__burger-btn" id="burger">
+              <span></span><span></span><span></span>
+          </button>
+
+          <nav class="menu" id="menu">
+              <ul class="menu__list">
+                  <li class="menu__item">
+                      <a class="menu__link" href="#About__header">
+                          О нас
+                      </a>
+                  </li>
+                  <li class="menu__item">
+                      <a class="menu__link" href="#dance__direction">
+                          Направления танцев
+                      </a>
+                  </li>
+                  <li class="menu__item">
+                      <a class="menu__link" href="#_Achiv">
+                          Наши достижения
+                      </a>
+                  </li>
+                  <li class="menu__item">
+                      <a class="menu__link" href="#_TimeH">
+                          Расписание
+                      </a>
+                  </li> 
+              </ul>
+          </nav>
+      </div>
+  </header>
+
     
     <div class="main__container _MCont">
       <h1 class="main__title _titleH1"id="titleH1"> Студия танцев <br><span class="main__title _Foot">На Ногах</span></h1>
@@ -31,8 +57,7 @@
         </h2>
         <h2 class="main__title _titleH2"><img src="img/icon.png" class="reason__icon _icon">Возраст не имеет значения, мы 
           <div class="title__text _Titext">учим как детей от 3 лет, так и взрослых</div></h2>
-        <h2 class="main__title _titleH2" id="titleH4"><img src="img/icon.png" class="reason__icon _icon">Вы получите дружны коллектив и <div class="title__text _Titext>хорошее настроение</div>div></h2>
-      </div>
+        <h2 class="main__title _titleH2" id="titleH4"><img src="img/icon.png" class="reason__icon _icon">Вы получите дружны коллектив и <div class="title__text _Titext>хорошее настроение>
       <div class="reason__btn _btn"><a
           href="https://vk.com/nanogahdance?z=photo-214245338_457239135%2Falbum-214245338_00" target="_blank">
           <button class=" _btn">
@@ -42,7 +67,7 @@
       </div>
     </div>
     <div class="About">
-      <div class="About__header _AboutOur" id="About__header">О нас</div>
+      <div class="About__header _AboutOur" id="#About__header">О нас</div>
       <div class="About__text _description">Молодая и креативная студия современной хореографии. С любовью и заботой
         научим
         вас танцевать! Мы рады видеть каждого - любого возраста, любым цветом волос и любым уровнем подготовки! В спектре услуг  студии
