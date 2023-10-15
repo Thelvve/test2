@@ -63,7 +63,7 @@ body {
 }
 
 .header__burger-btn:hover span {
-    background-color: rgb(103, 103, 103);
+    background-color: #fff;
 }
 
 .header__burger-btn span:nth-child(1) {
