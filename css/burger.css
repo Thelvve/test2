@@ -80,7 +80,7 @@ body {
 /* Крестик */
 
 .header.open .header__burger-btn span {
-    background-color: white;
+    background-color: #000;
 }
 
 .header.open .header__burger-btn span:nth-child(1) {
